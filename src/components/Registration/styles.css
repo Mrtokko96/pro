@@ -1,0 +1,59 @@
+.Registration{
+  margin-top: 5vh;
+  height: 80vh;
+  width: 80vw;
+  font-weight: 600;
+  margin-left: 10vw;
+}
+
+
+.Registration section{
+  display: inline-grid;
+}
+.login,.singUp{
+  height: 100%;
+  width: 40vw;
+  /* margin-bottom: 10vh */
+}
+
+.login input,.singUp input{
+  width: 50%;
+  display: block;
+  margin-left: 25%;
+  font-size: 1em;
+  color: white;
+  padding: .2em;
+}
+.login h4,.singUp h4{
+  text-align: center;
+  font-weight: 500;
+  font-family: 'Quicksand', sans-serif;
+  color: white
+}
+
+.login button,.singUp button{
+  width: 20vw;
+  margin-left: 25%;
+  /* border: none; */
+  outline: none;
+  background-color: transparent;
+  padding: .5em;
+  color: white;
+  border-radius: .2em;
+  border: .1em solid white;
+  transition: background 200ms linear;
+}
+.login button:hover{
+  background-color: #2a3b71;
+}
+
+.singUp button:hover{
+  background-color: #ed4c78;
+}
+.login{
+  background-color: #ED4C78;
+
+}
+.singUp{
+  background-color: #2A3B71;
+}
